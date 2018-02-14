@@ -1,0 +1,140 @@
+/* CORE */
+
+body, html {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+  min-height: 400px;
+  background: #eee;
+}
+
+.container {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  width: 25%;
+  height: 50%;
+  float: left;
+  position: relative;
+}
+
+.codearea {
+  border: 0;
+  outline: 0;
+  padding: .5em 1em 1em 1em;
+  border-top: .5em solid black;
+  margin: 0;
+  width: calc(100% - 2em);
+  height: calc(100% - 2em);
+  float: left;
+  font-family: 'Inconsolata', monospace;
+  font-size: 9pt;
+  white-space: nowrap;
+  background-color: transparent;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+}
+
+.codearea:focus {
+  background-color: #fff;
+}
+
+#js-container {
+  height: 100%;
+}
+
+.runner, .spawner {
+  position: absolute;
+  font-family: 'Inconsolata', monospace;
+  font-size: 9pt;
+  border: 1px solid #222;
+  background: transparent;
+  margin: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.runner {
+  bottom: 1em;
+  left: 1em;
+  padding: 2px 10px;
+}
+
+.spawner {
+  top: calc(50% - 1em);
+  left: calc(50% - 2.5em);
+  width: 5em;
+  height: 2em;
+  padding: 0;
+  text-align: center;
+  line-height: 2em;
+}
+
+/* SPAWNER BUTTONS */
+
+#cspawner {
+  background: #ddd;
+}
+
+#bspawner_js {
+  margin-top: -12.5%;
+}
+
+#bspawner_php {
+  margin-top: -25%;
+}
+
+#bspawner_py {
+  margin-top: -37.5%;
+}
+
+#bspawner_java {
+  margin-top: +12.5%;
+}
+
+#bspawner_vb {
+  margin-top: +25%;
+}
+
+#bspawner_cpp {
+  margin-top: +37.5%;
+}
+
+#bspawner_cs {
+  margin-top: 0;
+}
+
+/* ICONS */
+
+.js:focus {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
+}
+
+.java:focus {
+  background-image: url("https://qph.ec.quoracdn.net/main-qimg-48b7a3d8958565e7aa3ad4dbf2312770");
+}
+
+.py:focus {
+  background-image: url("https://www.pyfor.com/assets/uploads/system/touchicon-36.png");
+}
+
+.cs:focus {
+  background-image: url("https://docs.microsoft.com/en-us/dotnet/images/hub/csharp.svg");
+}
+
+.php:focus {
+  background-image: url("https://res.cloudinary.com/hpiynhbhq/image/upload/v1514018785/s8fj6pnmbzf19x0mmuji.png");
+}
+
+.vb:focus {
+  background-image: url("https://camo.githubusercontent.com/b66037d14a97981dc220b1cd98b8b7ce1fb6535e/68747470733a2f2f69302e77702e636f6d2f7777772e646f776e6c6f6164696e666f726d65722e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031322f31322f76622d6c6f676f2d332e706e67");
+}
+
+.cpp:focus {
+  background-image: url("https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png");
+}
