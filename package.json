@@ -1,0 +1,25 @@
+{
+  "name": "just-soda",
+  "version": "0.1.0",
+  "description": "Programming Language course web-based collaborative programming environment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-rate-limit": "^2.11.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/just-soda"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
